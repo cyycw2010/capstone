@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset = "UTF-8">
+    <title>Medical Diagnosis Project</title>
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>  
+    <h1>Medical Diagnosis Sim</h1>
+    <button id="startCase">Start Case</button>
+    <p id="PatientOverview">Patient Overview will show here.
+        Press 'Start Case' to begin</p>
+    <p id="PatientHistory">Patient History will appear here</p>
+    <button id="GetHistory">Get Patient History</button>
+    <p id="BloodTestResult">Results of Blood Test will show here</p>
+    <button id="BloodTest">Order Blood Test</button>
+    <h2>What is your diagnosis?</h2>
+    <input id="diagnosisGuess" list="diseases" placeholder="Enter a disease">
+    <datalist id="diseases">
+        <option value="Ebola"><option value="Dengue fever"><option value="Influenza">
+        <option value="Malaria"><option value="Typhoid fever">
+    </datalist>
+    <button id="Guess">Submit Guess</button>
+    <p id="guessResult">Enter your guess to see result</p>
+    <button id="NewCase">Click to Reset to a New Case</button>
+    <script src="project.js"></script>
+</body>
+</html>
