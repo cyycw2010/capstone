@@ -10,3 +10,4 @@ reset.addEventListener("click", function() {
     count.textContent = 0;
     number = 0;
 });
+
